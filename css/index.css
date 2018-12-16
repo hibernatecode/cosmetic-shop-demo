@@ -1,0 +1,379 @@
+/* css for index.html */
+  
+   
+/* slide AD */
+
+
+/*.fullshow_w {
+	width:100vw;
+	margin:0px auto 20px auto;
+	display:block;
+}
+*/
+
+
+
+.ad_all {
+	z-index:0;
+	position:relative;
+}
+
+
+.ad_container {
+	width:100vw;
+	position:relative;
+	border:0px solid;
+	text-align:center;
+  
+}
+   
+   
+   
+.listimg {
+	position:absolute;
+	width:100px;
+	float:right;
+  border:0px solid;
+  padding:0px;
+ 
+ }  
+   
+.fullshow_w {
+	width:100vw;
+	border:0px solid;
+	/*z-index:20;*/
+	}
+   
+
+.ad_pic {
+	
+	position:absolute;
+	
+}
+   
+   
+   
+ 
+  
+  
+   
+.ad_dot {
+	position:absolute;
+	width:78vw;
+	z-index:20;
+	margin:33% 10%;
+	border:0px solid;
+}
+   
+.ad_dot span {
+  margin:0 10px;	
+  
+}
+   
+   
+.ad_dot span a {
+    -moz-transition: background 0.5s ease-in,color 0.3s ease-out;
+    -webkit-transition: background 0.5s ease-in,color 0.3s ease-out;
+    -o-transition: background 0.5s ease-in,color 0.3s ease-out;
+    transition: background 0.5s ease-in,color 0.3s ease-out;
+  }
+   
+   
+/* top menu */
+
+#menu_out{
+	clear: both;
+	width: 90vw;
+	height:84px;
+	margin:20px auto 21px auto;
+	
+	background:#ffffff;
+	text-align:center;
+	border:0px solid;
+}
+
+.block_pos {
+	position:relative;
+	float:left;
+	width:25%;
+	height:70%;
+	margin:16px 0;
+	font-size:12px;
+	color:#9B9B9B;
+	border:0px solid;
+}
+
+
+.menu_icon {
+	border: 0px;
+	width: 34px;
+	height: 32px;
+	}   
+   
+/*banner background */
+
+
+.banner_bg {
+  clear:both;
+	width: 90vw;
+	height: 62px;
+	border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-right-radius:0px;
+  border-bottom-left-radius:0px;
+	background-size:90% 62px;
+	border:0px solid;
+	}
+	
+
+/* list div */
+	
+.list_out {
+	border-radius:0px 0px 8px 8px;
+	background:#ffffff;
+	width: 90vw;
+	height:164px;
+	padding: 10px 0px 2px 0px;
+	text-align:center;
+	border:0px solid;
+}
+
+.line_div {
+	position:relative;
+	width:95%;
+	height:160px;
+	border:0px solid;
+}
+	
+.banner_txt {
+	/* vertical middle */
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	
+	
+	width:36%;
+	padding:6px 0px 7px 0px;
+	border-radius: 8px;
+	background:rgba(74,74,74,0.4); /* IE not support */
+	border:1px #979797;
+	font:16px;
+	color:#ffffff;
+	letter-spacing:5px;
+	text-indent: 5px;
+}
+
+	
+	
+	
+/* 热门品牌 */
+#hot_bg {
+	background: url(../slices/index/index_brand_banner_background@2x.png) left top;
+  }
+
+
+.list_show {
+	position:relative;
+	border:0px solid;
+	width:33%;
+	height:46px;
+	float:left;
+	text-align:center;
+	padding:6px 0px 0px 0px;
+	border:0px solid;
+	
+}
+
+.line_bottom {
+	border-bottom:1px solid #E5E5E6;
+}
+
+.line_rl {
+	border-right:1px solid #E5E5E6;
+	border-left:1px solid #E5E5E6;
+}
+
+.list_img {
+	width:72px;
+	height:36px;
+	border:0px solid;
+	
+}
+	
+	
+/* 精选商品 */
+#selected_bg {
+	clear:both;
+	margin:20px auto 0px auto;
+	background: url(../slices/index/index_production_banner_background@2x.png) left top;
+	border:0px solid;
+	}
+	
+.tab_float {
+	width:90vw;
+	height:27px;
+	background:#ffffff;
+	
+}
+	
+.ul_out {
+	margin:0px;
+	width:60%;
+	list-style-type:none;
+	font-size:13px;
+	border-bottom:0px solid;
+}
+	
+.tab_float li {
+	float:left;
+	width:36px;
+	text-align:center;
+	margin:8px 20px 0px -10px;
+	
+}
+
+.subtxt {
+	
+	vertical-align:middle;
+}
+
+
+/* tag bottom line change */
+.tab_float .line_unsel {
+	border-bottom:0px #E5E5E6 solid;
+}
+
+.tab_float .line_sel {
+	border-bottom:1px #ED9DAC solid;
+}
+	
+	
+	
+	
+	
+	
+.production_out {
+	clear:both;
+	border-top:1px #E5E5E6 solid;
+	border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+	width:90vw;
+	height:280px;
+	
+	background:#ffffff;
+	
+	}
+	
+.production_out div {
+	float:left;
+	width:25%;
+	margin:10px auto 8px auto;
+  
+}	
+
+.production_out img {
+	clear:both;
+	width:58px;
+	height:58px;
+	border:1px #E5E5E6 dashed;
+}	
+
+.production_out div span {
+	display:block;
+	  
+	font-size:8px;
+	color:#9B9B9B;
+	width:60px;
+	height:22px;
+	margin:5px auto 0px auto;
+	
+	
+	/* text overflow for mobile */
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+
+ 
+}	
+	
+.production_out div .font_color_r {
+	
+	color:#E87A90;
+	
+	}	
+
+	
+/* 品牌头条 */
+#topnews_bg {
+	clear:both;
+	margin:20px auto 0px auto;
+	background: url(../slices/index/index_Topnews_banner_background@2x.png) left top;
+
+
+	}
+	
+	
+.topnew_out {
+	
+	border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+	width:90vw;
+	height:100px;
+	border-top:1px #E5E5E6 solid;
+	background:#ffffff;
+	border:0px #000000 solid;
+	}
+
+	
+.new_ul {
+	clear:both;
+	list-style-type:none;
+	width:80%;
+	margin:0px;
+
+	
+	
+}
+
+
+.new_ul li {
+	display:block;
+	float:left;
+	padding:0px;
+	margin:15px 10px 0px -30px;
+	border:0px solid;
+	font-size:13px;
+	
+	
+}
+
+.new_ul li .newtag {
+  width:30px;
+	border:1px #E87A90 solid;
+	border-radius:3px;
+	font-size:10px;
+	color:#E87A90;
+	
+	margin:0px 30px 20px 0px;
+}
+	
+.new_ul li .over_txt {
+	
+	width:240px;
+	height:20px;
+	text-align:left;
+	/* text overflow for mobile */
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+	
+	
+.fixpadding {
+	height:70px;
+}	
+	
+	

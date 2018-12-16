@@ -1,0 +1,142 @@
+/* common css */
+
+::-webkit-scrollbar {
+display: none;/*隐藏滚轮*/
+}
+
+body {
+	margin:0px;
+	padding:0px;
+  background-color: #F2F2F2;
+ 
+  width: 100vw;
+  height:100vh;
+  text-align: center;
+  
+  font-family:Helvetica;
+  
+  }
+  
+ 
+
+div {
+	margin:0px auto;
+	padding:0px;
+	border:0px;
+	}
+	
+
+
+
+a:link,
+a:hover,
+a:active,
+a:visited{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* logo and search */  
+#common_top{
+	margin:auto;
+	width:100vw;
+  height:50px;
+  background:#ffffff;
+  padding:0 0 0 2%;
+}
+  /* logo */
+  
+  #td_logo {
+  	width:70px;
+  }
+  
+  
+  #logo {
+	  width:56px;
+	  height:16px;
+	  vertical-align:middle;
+  }
+  
+  /* search */
+
+  #td_ser {
+  	text-align:left;
+  }
+
+  #txt_sear {
+  	border-radius: 8px;
+  	width: 86%;
+  	height:28px;
+  	border-style: solid;
+  	border-width: 0px;
+  	background: #E5E5E6 url(../slices/public/search_icon@2x.png) no-repeat 3px; 
+  	background-size: 7%;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #9B9B9B;
+  }
+  
+  
+  
+  
+  
+  /* bottom menu */
+
+.menu_bottom {
+	clear:both;
+	
+	/*position: absolute;
+  bottom: 0;
+  z-index:100;
+  
+	
+	position:absolute;
+	bottom:0px;
+	*/
+	
+	
+	width:100vw;
+	height:50px;
+	border:0px;
+	background:#FAFAFA;
+	box-shadow: 0px -5px 10px #C8C8C8;  
+	margin:20px auto 0px auto;
+	border-top:1px #979797 solid;
+	
+}
+
+.menu_item {
+	float:left;
+	width:25%;
+	font-size:10px;
+	border:0px solid;
+}
+	
+.menu_item img {
+	margin:1px auto;
+	width:36px;
+	height:30px;
+}
+
+.footer {
+   position: fixed;
+   left: 0px;
+   bottom: -1px;
+   width: 100%;
+   z-index:10000;
+}
+
+
+
+/*------------ font --------------*/
+
+.text_bold {
+	font-weight:bold;
+	}
+
+.color_red {
+	color:#E87A90;
+}
+
+
