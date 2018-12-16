@@ -5,7 +5,7 @@
 
 var block_content;
 
-var Mimgpath = ".." + "\/" + "cosmeticshop" + "\/" + "slices" + "\/" + "index" + "\/";  //part path of pics; 
+var Mimgpath = "slices" + "\/" + "index" + "\/";  //part path of pics; 
 
 
 // production's name

@@ -72,7 +72,7 @@ function main_right(default_sel) {
 		 
 		 var itxt =new Array ();
 		 for (m=0; m<arrtxt.length; m++) {
-		 	  itxt[m] = "<div class=\"prod_div\" id=\"lo" + m + "\"><img src=\"..\/..\/cosmeticshop\/slices\/sort\/sort_production_1@2x.png\" class=\"prod_img\" \/><span class=\"prod_txt\">" + arrtxt[m] + "<\/span><\/div>";
+		 	  itxt[m] = "<div class=\"prod_div\" id=\"lo" + m + "\"><img src=\"..\/slices\/sort\/sort_production_1@2x.png\" class=\"prod_img\" \/><span class=\"prod_txt\">" + arrtxt[m] + "<\/span><\/div>";
 		 }
 		 
 		 var kk = itxt.join("");

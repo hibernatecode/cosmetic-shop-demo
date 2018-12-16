@@ -9,8 +9,8 @@ function dtaglist () {
    
    var sorttag_write = new Array();
    
-   var icondiv_0 = "<td class=\"sw_img\"><img src=\"..\/..\/cosmeticshop\/slices\/public\/arrowr_down@2x.png\" alt=\"down\" class= \"arrowwh sw_f\" id=\"icon0\"><\/td>";
-   var icondiv_2 = "<td class=\"sw_imgd\"><img src=\"..\/..\/cosmeticshop\/slices\/public\/arrowr_up@2x.png\" alt=\"up\" class= \"arrowwh sw_f iconun\" id=\"icon2\" ><img src=\"..\/..\/cosmeticshop\/slices\/public\/arrowr_down@2x.png\" alt=\"down\" class= \"arrowwh iconun\" id=\"icon2\"><\/td>";
+   var icondiv_0 = "<td class=\"sw_img\"><img src=\"..\/slices\/public\/arrowr_down@2x.png\" alt=\"down\" class= \"arrowwh sw_f\" id=\"icon0\"><\/td>";
+   var icondiv_2 = "<td class=\"sw_imgd\"><img src=\"..\/slices\/public\/arrowr_up@2x.png\" alt=\"up\" class= \"arrowwh sw_f iconun\" id=\"icon2\" ><img src=\"..\/slices\/public\/arrowr_down@2x.png\" alt=\"down\" class= \"arrowwh iconun\" id=\"icon2\"><\/td>";
    //alert(icondiv_0 + "       " + icondiv_2);
 
 
@@ -69,7 +69,7 @@ function dtagcontentchange(tagno,tagnub) {   //tagno: 标签序号   tagnub: 总
              
  
 			 //images' path
-			 var imgpath = "..\/..\/cosmeticshop\/slices\/shop\/";
+			 var imgpath = "..\/slices\/shop\/";
 			 
 			 //device's width;
 			 if (document.documentElement.clientWidth == 414) {

@@ -88,7 +88,7 @@ function dtagcontentchange(tagno,tagnub) {   //tagno: 标签序号   tagnub: 总
 			 
 			 
 			 //images' path
-			 var imgpath = "..\/..\/cosmeticshop\/slices\/special\/" + infolder[tagno] + "\/";
+			 var imgpath = "..\/slices\/special\/" + infolder[tagno] + "\/";
 			 
 			 //console.log(document.documentElement.clientWidth);
 			 

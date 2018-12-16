@@ -47,7 +47,7 @@ function tagcontentchange(tagno,tagnub) {
   
   var block_content;
 
-  var Mimgpath = ".." + "\/" + "cosmeticshop" + "\/" + "slices" + "\/" + "index" + "\/";  //part path of pics; 
+  var Mimgpath = "slices" + "\/" + "index" + "\/";  //part path of pics; 
   var subtxt = "<sub class=\"subtxt\">";
 
   if (typeof(tagno) == "undefined") {  //default tag's id;
