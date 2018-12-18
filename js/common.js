@@ -5,8 +5,24 @@ function pageh(oBody) {
     oBody.style.height=document.documentElement.clientHeight + 'px';
     //alert(divh.offsetHeight);
     //alert(oBody.offsetWidth);
-    //alert(alldiv.offsetHeight);
+    //alert(dtagcontent.offsetHeight);
  }
+
+
+function newsgeth(getheightid) {
+	// div height
+
+	
+	var newsheight = document.getElementById(getheightid);
+	
+	newsheight.style.height = newsheight.clientHeight + "px"; 
+	
+
+	
+}
+
+
+
 
 
 // background img 自适应 w:h = 1:1

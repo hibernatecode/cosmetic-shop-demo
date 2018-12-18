@@ -10,7 +10,7 @@
 	   
 	   
 	   <!-- Icon of Website -->
-	   <link href="icon.png" rel="icon">
+	   <link href="slices/public/icon@2x.png" alt="pinleft" class="top_img_1"" rel="icon">
 	   
 	   <!-- Css -->
 	   <link rel="stylesheet" type="text/css" href="css/common.css">
@@ -51,36 +51,25 @@
     <div class="ad_container">
        
         <!-- dot bar -->
-       <div class="ad_dot">
-          <span><img src="slices/index/dot_unsel@2x.png" onmouseover="aa()" /></span>
-          <span><img src="slices/index/dot_unsel@2x.png" /></span>
-          <span><img src="slices/index/dot_unsel@2x.png" /></span>
-          <span><img src="slices/index/dot_unsel@2x.png" /></span>
-       </div>
+       <div class="ad_dot" id="ad_dots"></div>
 
-    
+      
     
        <!-- slide pics -->
        <div classe="ad_pic" id="ad_pic">
-         <div class="listimg"><img src="slices/index/index_banner_01@2x.png" alt="slideAD" class="fullshow_w" /></div>
-	       <div class="listimg"><img src="slices/index/index_banner_02@2x.png" alt="slideAD" class="fullshow_w" /></div>
-         <div class="listimg"><img src="slices/index/index_banner_03@2x.png" alt="slideAD" class="fullshow_w" /></div>
-      </div>
+       	  <script type="text/javascript">writhpics();</script>
+       </div>
     </div> 
     
-      </div>
+    <script type="text/javascript">
+    	internalaction();
+    	//touchmobil();
+    	
+    </script>   
+   </div>
    			
    			
-   			
-   			
-   			
-   			
-   			
-   			
-   			
-   			
-   			
-   			
+   	
    			
    			
 		<!-- Menu (top) -->
@@ -96,8 +85,11 @@
 		  </div>
 		
 		  <div class="block_pos">
-		    <img src="slices/index/index_Nav_crown@2x.png" alt="menuicon" class="menu_icon" />
-			  <div>特价商城</div>
+		    
+		    <a href="special/special.html">
+		      <img src="slices/index/index_Nav_crown@2x.png" alt="menuicon" class="menu_icon" />
+			    <div>特价商城</div>
+			  </a>
 	  	</div>
 		
 	  	<div class="block_pos">
@@ -123,7 +115,7 @@
 		<!-- Brand list -->
 		<div class="list_out">
 			<div class="line_div">
-	  	  <div class="list_show line_bottom"><img src="slices/index/index_brand_0@2x.png" alt="0" class="list_img" /></div>
+	  	  <a href="shop/shop.html"><div class="list_show line_bottom"><img src="slices/index/index_brand_0@2x.png" alt="0" class="list_img" /></div></a>
 	  	  <div class="list_show line_bottom line_rl"><img src="slices/index/index_brand_1@2x.png" alt="1" class="list_img" /></div>
 	  	  <div class="list_show line_bottom"><img src="slices/index/index_brand_2@2x.png" alt="2" class="list_img" /></div>
 	  	  <div class="list_show line_bottom"><img src="slices/index/index_brand_3@2x.png" alt="3" class="list_img" /></div>
@@ -175,7 +167,9 @@
 		</div>
     
     <!-- news list -->
-    <div class="topnew_out">
+    <div class="topnew_out" id="newsh">
+    
+    	
       <ul class="new_ul">
       	<li><div class="newtag">热门</div></li>
       	<li><div class="over_txt">头条标题头条标题头条标题头条标题头条头条标题头条标题头条标题头条标题头条头条标题头条标题头条标题头条标题头条</div></li>
@@ -184,7 +178,15 @@
       	<li><div class="newtag">热门</div></li>
       	<li><div class="over_txt">头条标题头条标题头条标题头条标题头条</div></li>
       </ul>
+      
+      
     </div>
+      <script type="text/javascript">newsgeth("newsh")</script>
+    </div>
+        
+    
+    
+    
     
     <div class="fixpadding">&nbsp;</div>
     
@@ -196,20 +198,28 @@
 		
 		<div class="menu_bottom footer">
 			<div class="menu_item">
-				<img src="slices/public/ico-home-selected@2x.png" alt="首页"/>
-				<div>首页</div>
+				<a href="index.html">
+					<img src="slices/public/ico-home-selected@2x.png" alt="首页"/>
+				  <div>首页</div>
+			  </a>
 			</div>
 			<div class="menu_item">
-				<img src="slices/public/ico-classify@2x.png" alt="分类"/>
-				<div>分类</div>
+				<a href="sort/sort.html">
+				  <img src="slices/public/ico-classify@2x.png" alt="分类"/>
+				  <div>分类</div>
+				</a>
 			</div>
 			<div class="menu_item">
-				<img src="slices/public/ico-chart@2x.png" alt="购物车"/>
-				<div>购物车</div>
+				<a href="#">
+				  <img src="slices/public/ico-chart@2x.png" alt="购物车"/>
+				  <div>购物车</div>
+				</a>
 			</div>
 			<div class="menu_item">
-				<img src="slices/public/ico-user@2x.png" alt="我的"/>
-				<div>我的</div>
+				<a href="#">
+			    <img src="slices/public/ico-user@2x.png" alt="我的"/>
+				  <div>我的</div>
+			  </a>
 			</div>
 		</div>
 		

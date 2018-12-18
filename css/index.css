@@ -48,12 +48,15 @@
 .ad_pic {
 	
 	position:absolute;
+
 	
 }
    
-   
-   
- 
+.adpic_trans {
+	opacity:0; 
+	-webkit-transition:opacity linear;
+	
+}
   
   
    
@@ -62,12 +65,17 @@
 	width:78vw;
 	z-index:20;
 	margin:33% 10%;
-	border:0px solid;
+
 }
    
-.ad_dot span {
-  margin:0 10px;	
-  
+.ad_dotspan {
+  margin:0 10px;
+ 
+}
+
+
+.dotgray {
+	filter:grayscale(100%);
 }
    
    
@@ -103,6 +111,10 @@
 	border:0px solid;
 }
 
+
+.block_pos a {
+	color:#9B9B9B;
+}
 
 .menu_icon {
 	border: 0px;
@@ -316,11 +328,11 @@
 	
 	
 .topnew_out {
-	
+	padding:10px auto;
 	border-bottom-right-radius:8px;
   border-bottom-left-radius:8px;
 	width:90vw;
-	height:100px;
+	display:inline-block;
 	border-top:1px #E5E5E6 solid;
 	background:#ffffff;
 	border:0px #000000 solid;
@@ -332,9 +344,6 @@
 	list-style-type:none;
 	width:80%;
 	margin:0px;
-
-	
-	
 }
 
 

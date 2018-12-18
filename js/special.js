@@ -89,6 +89,8 @@ function dtagcontentchange(tagno,tagnub) {   //tagno: 标签序号   tagnub: 总
 			 
 			 //images' path
 			 var imgpath = "..\/slices\/special\/" + infolder[tagno] + "\/";
+			 var imglink = "<a href=\"..\/detail\/detail.html\">";
+			 
 			 
 			 //console.log(document.documentElement.clientWidth);
 			 
@@ -117,7 +119,7 @@ function dtagcontentchange(tagno,tagnub) {   //tagno: 标签序号   tagnub: 总
 			 	    
 			 	
 			 	
-			 	conductarr[i] = divout + "<img src=\"" + imgpath + "special_img_" + i + "@2x.png\" alt=\"" + i + "\" class=\"imglist\" onclick=\" \" />" + divimg + productxt[tagno][i] + "</div>" + divpri + breakl_pri[0] + "." + subtxt + breakl_pri[1] + "</sub>" + divpriori + breakl_priori[0] + "." + subtxt + breakl_priori[1] + "</sub></s></div></div>";
+			 	conductarr[i] = imglink + divout + "<img src=\"" + imgpath + "special_img_" + i + "@2x.png\" alt=\"" + i + "\" class=\"imglist\" onclick=\" \" />" + divimg + productxt[tagno][i] + "</div>" + divpri + breakl_pri[0] + "." + subtxt + breakl_pri[1] + "</sub>" + divpriori + breakl_priori[0] + "." + subtxt + breakl_priori[1] + "</sub></s></div></div></a>";
 			 	//console.log(conductarr[i]);
 			}
 			  document.getElementById("dtagcontent").innerHTML = conductarr.join("");

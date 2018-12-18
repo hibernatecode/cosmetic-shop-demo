@@ -7,7 +7,7 @@ tbody {
 
 
 .fixpadding {
-	height:200px;
+	height:80px;
 }
 
 
@@ -240,6 +240,7 @@ clear:both;
 
 .aligndiv {
   text-align:left;
+  display:inline-block;
 }
 
 .alldiv {
@@ -274,7 +275,7 @@ clear:both;
 .txtw {
   
 	width:150px;
-	height:40px;
+	height:38px;
 	margin:6px auto 12px auto;
 	border:0px solid;
 	

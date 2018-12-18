@@ -49,6 +49,8 @@ function tagcontentchange(tagno,tagnub) {
 
   var Mimgpath = "slices" + "\/" + "index" + "\/";  //part path of pics; 
   var subtxt = "<sub class=\"subtxt\">";
+  var productlink = "<a href=\"detail\/detail.html\">";
+  
 
   if (typeof(tagno) == "undefined") {  //default tag's id;
   	     tagno = "0";
@@ -63,7 +65,7 @@ function tagcontentchange(tagno,tagnub) {
 		 
   	 
   	 
-  	  sortcontent_arr[i] = "<div><img src=" + "\'" + Mimgpath + sortcontent_folder[tagno] + "\/" + "index_production_" + i + "@2x.png" + "\'" + " alt= " + "\'" + i + "\'" + " onclick=" + "\'" + "linkpage(" + i + ") \'" + "\/" + ">" + "<span onclick=" + "\'" + "linkpage(" + i + ")\'>" + sortcontent_txt[tagno][i] + "<\/" + "span><span class= " + "\'" + "font_color_r" + "\'>" + breakl_pri[0] + subtxt + "." + breakl_pri[1] + "<\/s><\/" + "span><\/" + "div>";	 
+  	  sortcontent_arr[i] = productlink + "<div><img src=" + "\'" + Mimgpath + sortcontent_folder[tagno] + "\/" + "index_production_" + i + "@2x.png" + "\'" + " alt= " + "\'" + i + "\'" + " onclick=" + "\'" + "linkpage(" + i + ") \'" + "\/" + ">" + "<span onclick=" + "\'" + "linkpage(" + i + ")\'>" + sortcontent_txt[tagno][i] + "<\/" + "span><span class= " + "\'" + "font_color_r" + "\'>" + breakl_pri[0] + subtxt + "." + breakl_pri[1] + "<\/s><\/" + "span><\/" + "div></a>";	 
 
   }
   document.getElementById("tagcontent").innerHTML = sortcontent_arr.join("");
